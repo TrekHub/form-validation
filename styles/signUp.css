@@ -12,11 +12,16 @@
 
 body {
   font-family: sans-serif;
+  padding-top: 30px;
+}
+.main {
+  width: 90%;
+  margin: auto auto;
+
 }
 
 .container {
   display: flex;
-  height: 80% !important; 
   flex-direction: row;
 }
 
@@ -30,12 +35,12 @@ body {
   justify-content: space-around;
   background-color: #6e56ff;
   width: 55%;
-  min-height: 100vh;
+ 
   padding: 10px 20px;
 }
 
 .image {
-  background-image: url("/assets/images/image2.png");
+  background-image: url("/assets/images/image.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -196,9 +201,14 @@ button:hover {
   .container {
     flex-direction: column;
   }
-
-  form,
+  .content .image {
+    display: none;
+  }
   .content {
+    height: 150px;
+  }
+
+  .content , form {
     width: 100%;
   }
 
@@ -206,7 +216,7 @@ button:hover {
     flex-direction: column;
   }
   .image {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
