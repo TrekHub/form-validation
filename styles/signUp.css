@@ -35,7 +35,7 @@ body {
 }
 
 .image {
-  background-image: url("/assets/images/image.svg");
+  background-image: url("./assets/images/image.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
